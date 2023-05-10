@@ -19,7 +19,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
     )
 */
 
-const flujoDelivery = addKeyword("A").addAnswer("Ahora en *Ñam*, podes pedir directamente desde nuestra web: \n https://nam-gourmet.com/ \nEs muy fácil!. \nSimplemente, elegi tus productos favoritos, la opción de entrega. \n(Entrega a domicilio/Para retirar), el medio de pago y LISTO. ")
+const flujoDelivery = addKeyword("A").addAnswer("Ahora en *Ñam*, podes pedir directamente desde nuestra web: \n https://menu.fu.do/%C3%B1amgodoycruz \nEs muy fácil!. \nSimplemente, elegi tus productos favoritos, la opción de entrega. \n(Entrega a domicilio/Para retirar), el medio de pago y LISTO. ")
 
 const flujoMostrador = addKeyword("B").addAnswer("Llamanos y lo podes venir a retirar a la calle Perito Moreno 2500 ")
 
@@ -28,7 +28,7 @@ const flujoPrincipal = addKeyword(['Hola','Buenas','Holi','Buenas noches','Holii
 const flujoAlias = addKeyword(['mercado pago','alias','pago']).addAnswer('El alias nuestro es: 💵 \nñam.godoy.cruz \nUna vez realizada la transferencia mandanos el comprobante. Gracias.')
 .addAnswer("En unos 45 min estamos por ahi.")
 
-const flujoAdios = addKeyword(['gracias','adios','chau']).addAnswer('Chau. Gracias por confiar en Ñam😎')
+const flujoAdios = addKeyword(['gracias','adios','chau']).addAnswer('Chau. Gracias por confiar en Ñam.😎')
 
 const main = async () => {
     const adapterDB = new MockAdapter()
