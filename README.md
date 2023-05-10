@@ -1,7 +1,7 @@
-### CHATBOT Whatsapp (Baileys Provider)
+### CHATBOT Whatsapp para Ñam (Baileys Provider)
 
 <p align="center">
-  <img width="300" src="https://i.imgur.com/Oauef6t.png">
+  <img width="300" src="https://nam-gourmet.com/wp-content/uploads/2021/08/logopng_blanco-768x523.png">
 </p>
 
 
